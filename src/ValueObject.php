@@ -7,13 +7,10 @@
 
 namespace Fleshgrinder\Core;
 
-use JsonSerializable;
-use Serializable;
-
 /**
  * Defines the value object head interface.
  */
-interface ValueObject extends Equalable, JsonSerializable, Serializable {
+interface ValueObject extends Equalable {
 
     // Intentionally left blank.
 
